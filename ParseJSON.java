@@ -14,7 +14,6 @@ public class ParseJSON {
 
     public ParseJSON(String jsonString) {
         this.jsonObject = (JSONObject) new JSONObject(jsonString);
-        Regression regression = new Regression(jsonItems, userData);
         hashMap = new HashMap();
     }
 
